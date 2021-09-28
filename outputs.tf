@@ -1,0 +1,1 @@
+output "password" { value = data.external.preview_secret.result.*.password }
